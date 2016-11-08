@@ -6,7 +6,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/tjkz87/data-template-pdf.git"
-  }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
