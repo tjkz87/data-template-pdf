@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "micro-service that takes a template and data and converts them to a PDF document",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjkz87/data-template-pdf.git"
+  }
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
