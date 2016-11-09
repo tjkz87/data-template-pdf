@@ -77,7 +77,7 @@ if (cluster.isMaster) {
     res.send('Hello world! from worker:' + cluster.worker.id);
   });
 
-  app.post('/pdfs', (req, res) => {
+  app.post('/', (req, res) => {
     countPdf++;
     if (countPdf > 20) {
       process.send({ cmd: 'killMe' });
