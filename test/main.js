@@ -38,6 +38,7 @@ describe('POST /', () => {
     })
       .then((response) => {
         expect(response.statusCode).to.equal(200);
+	expect(response.headers['content-type']).to.equal('application/pdf');
 	done();
       })
   }); 
